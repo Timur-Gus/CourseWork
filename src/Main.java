@@ -11,5 +11,16 @@ public class Main {
         myEmployeeBook.printAllEployees();
         myEmployeeBook.printEmployeesDept();
         myEmployeeBook.delEmployee("Козлов Виктор Сергеевич");
+        myEmployeeBook.printAllEployees();
+        System.out.println(myEmployeeBook.totalMonthSalary());
+        System.out.println(myEmployeeBook.averageSalary());
+        myEmployeeBook.printAllFio();
+        myEmployeeBook.indexingSalary(0.3);
+        myEmployeeBook.addEmployees("Степанова Мария Александровна", 1, 35000);
+        myEmployeeBook.minSalaryDept(2);
+        System.out.println(myEmployeeBook.averageSalaryDept(1));
+        System.out.println(myEmployeeBook.totalSalaryDept(1));
+        myEmployeeBook.salaryMoreIndex(50000);
+        myEmployeeBook.minSalary();
     }
 }
